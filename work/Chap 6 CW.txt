@@ -1,3 +1,5 @@
+Class Work #1                                   Sep 29
+
 Construct a stem-and-leaf display for the data.
 Construct a frequency distribution and histogram.
 Draw the box plot.
