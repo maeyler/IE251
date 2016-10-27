@@ -1,0 +1,9 @@
+Class Work #4                                   Oct 25
+
+The phone lines to an airline reservation system are occupied 40% of the time. Assume that the events that the lines are occupied on successive calls are independent. Assume that 8 calls are placed to the airline.
+
+(a) What is the probability that for exactly two calls the lines are occupied?
+
+(b) What is the probability that for at least one call the lines are not occupied?
+
+(c) What is the expected number of calls in which the lines are all occupied? 
