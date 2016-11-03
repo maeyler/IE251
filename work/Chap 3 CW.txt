@@ -1,3 +1,19 @@
+﻿Class work #5                                   Nov 3
+
+3-102. When a computer disk manufacturer tests a disk, it writes to the disk and then tests it using a certifier. The certifier counts the number of missing pulses or errors. The number of errors on a test area on a disk has a Poisson distribution with λ = 0.2.
+(a) What is the expected number of errors per test area?
+(b) What percentage of test areas have two or fewer errors?
+
+3-118. Determine the constant c so that the following function is a probability mass function:  f(k) = ck for k = 1, 2, 3, 4
+
+3-119. A manufacturer of a consumer electronics product expects 2% of units to fail during the warranty period. A sample of 500 independent units is tracked for warranty performance.
+(a) What is the probability that none fails during the warranty period?
+(b) What is the expected number of failures during the warranty period?
+(c) What is the probability that more than two units fail during the warranty period?
+
+
+
+
 Class Work #4                                   Oct 25
 
 The phone lines to an airline reservation system are occupied 40% of the time. Assume that the events that the lines are occupied on successive calls are independent. Assume that 8 calls are placed to the airline.
