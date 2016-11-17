@@ -1,0 +1,15 @@
+1. The number of cracks in a section of interstate highway that are significant enough to require repair is assumed to follow a Poisson distribution with a mean of 2.0 cracks per mile.
+(a) What is the probability that there are no cracks that require repair in 5 miles of highway?
+(b) What is the probability that at least one crack requires repair in 1/2 mile of highway?
+
+2. Show that f(x) = x/8  for 3<x<5 is a pdf. 
+Determine F(x) and the following:
+(a) P(X<4)    (b) P(X>3.5)
+(c) P(4<X<5)  (d) P(X<4.5)
+(e) the mean and variance for X
+
+3. The thickness of photoresist applied to wafers in semiconductor manufacturing at a particular location on the wafer is uniformly distributed between 0.2050 and 0.2150 micrometers.
+(a) Determine the cumulative distribution function of photoresist thickness.
+(b) Determine the proportion of wafers that exceeds 0.2125 micrometers in photoresist thickness.
+(c) What thickness is exceeded by 10% of the wafers?
+(d) Determine the mean and variance of photoresist thickness.
