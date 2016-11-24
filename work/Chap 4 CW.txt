@@ -1,3 +1,5 @@
+Class work #6                                   Nov 17
+
 1. The number of cracks in a section of interstate highway that are significant enough to require repair is assumed to follow a Poisson distribution with a mean of 2.0 cracks per mile.
 (a) What is the probability that there are no cracks that require repair in 5 miles of highway?
 (b) What is the probability that at least one crack requires repair in 1/2 mile of highway?
