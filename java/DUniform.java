@@ -1,16 +1,16 @@
 class DUniform {
     final static int M = 25, N = 10;  // MxN
-    public static void insertData(DataSet d) {
-        for (int i=0; i<N; i++) {
+    public static void insertData(Sample d) {
+        for (int i=0; i<N; i++) 
             d.addData((int)(Math.random()*N));
-        }
+        d.calculate(); 
     }
     public static void main(String[] args) {
-        DataSet a = new DataSet();  //all data
-        DataSet m = new DataSet();  //row averages
+        Sample a = new Sample();  //all data
+        Sample m = new Sample();  //row averages
         for (int i=0; i<M; i++) {
-            DataSet d = new DataSet();
-            insertData(d); d.calculate(); 
+            Sample d = new Sample();
+            insertData(d); 
             d.print("%3s "); 
             a.addData(d.data);
             m.addData(d.mean);

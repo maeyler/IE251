@@ -6,9 +6,9 @@ class ClipboardData {
           Toolkit.getDefaultToolkit().getSystemClipboard()
             .getData(java.awt.datatransfer.DataFlavor.stringFlavor)
             .toString().replace(',', '.').split("\\p{Space}");
-        final int n = a.length;
-        if (n == 0) throw new RuntimeException("No data");
-        DataSet d = new DataSet(); 
+
+        if (a.length == 0) throw new RuntimeException("No data");
+        Sample d = new Sample(); 
         for (String s : a)
             d.addData(Float.parseFloat(s));
         d.calculate(); 

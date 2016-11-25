@@ -1,14 +1,14 @@
 import java.util.*;
 
-class DataSet {
+public class Sample {
     float mean, var;
     List<Number> data = new ArrayList<>();
-    public DataSet() {}
     public void addData(List<Number> d) { 
-        data.addAll(d); var = 0;
+        data.addAll(d);
     }
-    public void addData(Number x) {
-        data.add(x); var = 0;
+    public void addData(Number... a) {
+        if (a.length == 1) data.add(a[0]); 
+        else addData(Arrays.asList(a));
     }
     public void calculate() {
         final int n = data.size();
@@ -32,15 +32,14 @@ class DataSet {
         System.out.printf("-> "+format+"%n", mean);
     }
     public void report() {
-        if (var == 0) calculate(); 
         System.out.printf("Mean %s %n", mean);
         System.out.printf("Var  %s %n", var);
     }
 
     public static void main(String[] args) {
-        DataSet d = new DataSet(); 
+        Sample d = new Sample(); 
         Number[] a = { 36.45, 68.71, 37.43, 42.18, 26.72, 50.77, 39.3, 49.71 };
-        d.addData(Arrays.asList(a)); d.calculate(); 
+        d.addData(a); d.calculate(); 
         d.print("%6.2f "); d.report();
     }
 }
