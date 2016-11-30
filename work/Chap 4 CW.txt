@@ -1,3 +1,20 @@
+Class Work #7                                   Dec 1
+
+1. Suppose that  X is a binomial random variable with n = 100 and p = 0.1.
+(a) Write a formula for the exact probability that  X is less than 4.
+(b) Approximate the probability that  X is less than 4.
+(c) Approximate the probability that  8 < X < 12
+
+2. The time between the arrival of electronic messages at your computer is exponentially distributed with a mean of 2 hours.
+(a) What is the probability that you do not receive a message during a two-hour period?
+(b) If you have not had a message in the last four hours, what is the probability that you do not receive a message in the next two hours?
+
+3. Calls to a telephone system follow a Poisson distribution with a mean of 5 calls per minute.
+(a) What is the name applied to the distribution and parameter values of the time until the tenth call?
+(b) What is the mean time until the tenth call?
+(c) What is the mean time between the ninth and tenth calls?
+
+
 Class work #6                                   Nov 17
 
 1. The number of cracks in a section of interstate highway that are significant enough to require repair is assumed to follow a Poisson distribution with a mean of 2.0 cracks per mile.
