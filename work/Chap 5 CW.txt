@@ -1,0 +1,9 @@
+Class Work #8                                   Dec 8
+
+Determine the value of c that makes the function f(x,y) = c(x+y) a joint probability mass function over the nine points with x = 1, 2, 3 and y = 1, 2, 3. 
+
+(a) Determine the following: P(X=1,Y<3)  P(Y=2)
+
+(b) Determine the marginal probability distribution of the random variable X.
+
+(c) Determine the conditional probability distribution of X given that Y=2.
