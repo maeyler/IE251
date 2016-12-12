@@ -1,3 +1,20 @@
+Class Work #9                                   Dec 13
+
+Each front tire on a vehicle is supposed to be filled to a pressure of 26 psi. Suppose the actual air pressure in each tire is a random variable (X for the right tire and Y for the left tire) with joint pdf:
+
+f(x,y) = K(x+y)    for 20<x<30 and 20<y<30
+
+a) What is the value of K?
+
+b) What is the probability that both tires are underfilled?
+
+c) Determine the distribution of the air pressure in the right tire
+
+d) Are X and Y independent?
+
+
+
+
 Class Work #8                                   Dec 8
 
 Determine the value of c that makes the function f(x,y) = c(x+y) a joint probability mass function over the nine points with x = 1, 2, 3 and y = 1, 2, 3. 
