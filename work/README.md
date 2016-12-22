@@ -3,16 +3,20 @@
 
 **Part 1:** U is discrete uniform (0, 9)
 
-E(U) = 4.5    V(U) = (10²-1)/12 = 8.25
+E(U) = E(X) = 4.5    
 
-E(X) = 4.5    V(X) = 0.825
+V(U) = (10²-1)/12 = 8.25
+
+V(X) = 0.825
 
 
 **Part 2:** U is exponential (1/4.5)
 
-E(U) = 4.5    V(U) = 4.5² = 20.25
+E(U) = E(X) = 4.5    
 
-E(X) = 4.5    V(X) = 2.025
+V(U) = 4.5² = 20.25
+
+V(X) = 2.025
 
 P(X < 2) = P(Z < -1.76) =0.04
 
@@ -33,4 +37,7 @@ Repeat the steps above with for the exponential distribution with mean 4.5 (usin
 
 
 #### The report will reflect your understanding of the CLT
+
+No page limit
+
 
