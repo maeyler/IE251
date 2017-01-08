@@ -1,0 +1,35 @@
+﻿1. U1...U12 are randomly drawn from a uniform distribution within (0, 1) 
+Let X = U1+...+U12–6   (sum of 12 numbers minus 6 -- **not** the average) 
+ E(U) = 1/2, V(U) = 1/12  (note that U is **not** discrete uniform)
+ E(X) = 12/2-6 = 0, V(X) = 12/12 = 1
+According to CLT, X is approximately Normal(0, 1)
+
+2. Light bulbs are inspected and the defective ratio is p = 0.003.  
+Determine the probability of no defectives.
+ P(X=0) = (1-p)^n   using binomial formula or
+ P(X=0) = exp(-np)  using Poisson approximation (for large n)
+n=3     0.991
+n=300   0.4060   
+n=3000  0.0001
+The last case is approximated using Normal(9, 9) 
+ P(Z<-2.83) = 0.0023  this is the desired answer 
+[iyi bir sonuç vermedi, çünkü 9 yeteri kadar büyük değil]
+
+3. Let X denote the service time in a certain service facility. It is known that X~uniform(0, θ) -- But θ is unknown
+A sample of n=8 customers: 21, 11, 48, 27, 33, 25, 10, 41 
+
+Sample mean is **not** E(X)  -- X-bar is the correct notation
+Sample variance is **not** V(X) -- S² is the correct notation
+
+Since E(X)=θ/2, the estimator θ-hat is 2 times X-bar, and it is unbiased
+
+4. soru (grafikler hariç) fena değil 
+
+5. soru en iyi yapılan soru oldu
+
+6.  Calls to a fire department is a Poisson process with an average of 4 calls per hour.
+if X is the number of calls received in an hour
+  P(X<2) = exp(-4)(1+4) = 0.0916   using Poisson formula
+if Y is the number of calls received in 9 hours
+  P(Y<24) = P(Z<(23.5-36)/6) = phi(-2.08) = 0.018   
+[23.5 yerine 24 kullandıysanız doğru saydım, 24.5 kullandıysanız yanlış]
